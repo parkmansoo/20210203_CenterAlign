@@ -25,5 +25,16 @@ div#colAlign>span {
     182를 반으로 나눈 값을 패딩 탑으로 설정
 */
 
+div#center {
+    width: 200px;
+    height: 200px;
 
+    position: relative;
+}
 
+div#center>span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
